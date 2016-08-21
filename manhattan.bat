@@ -16,8 +16,6 @@ IF /I %1==bombs_away (
 goto :START
 )ELSE (
 goto :END
-
-
 )
 :START
 
