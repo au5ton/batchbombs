@@ -3,7 +3,7 @@ batchbombs
 
 Rez wrote a virus called "Chrome" and I also tinkered with batch files on the school computers, so it's about time they got a proper place to live.
 
-# Scripts
+### Scripts
 
 - alert.bat is for testing execution and parameters
 - bail.bat is for *bailing*, as in deleting your entire user folder and `C:\Windows\Tasks` contents
