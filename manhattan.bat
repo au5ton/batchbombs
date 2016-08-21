@@ -14,7 +14,6 @@ copy "Don't Open (3).lnk" "D:\%username%\Desktop"
 
 IF /I %1==bombs_away (
 goto :START
-
 )ELSE (
 goto :END
 
@@ -86,5 +85,3 @@ echo kaboom
 
 
 :END
-
-
