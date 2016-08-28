@@ -7,7 +7,7 @@ Rez wrote a virus called "Chrome" and I also tinkered with batch files on the sc
 
 - alert.bat is for testing execution and parameters
 - bail.bat is for *bailing*, as in deleting your entire user folder and `C:\Windows\Tasks` contents
-- Chrome.bat is the virus Rez made, not really going to explain that one
+- Chrome.bat is the "virus" Rez made, not really going to explain that one
 - cmd.bat was written by Fluff to simulate cmd.exe even when it's blocked
 - empty_startup.bat empties all scripts and programs that are queued to launch on startup for the current user
 - Manganese.bat is an improvement of Chrome.bat that requires a `confirm` argument to function
